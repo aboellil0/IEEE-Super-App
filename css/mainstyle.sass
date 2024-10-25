@@ -1,0 +1,1246 @@
+*
+  color: aliceblue
+  box-sizing: border-box
+  padding: 0
+  margin: 0
+
+html
+
+body
+  &.background-img
+    /* background-image: url("../img/movie_details_bg.jpg");
+    background-color: #04050a
+
+  &.background-black
+    background-color: #04050a
+    color: #ffffff
+
+section.slider-area
+  min-height: 100%
+  max-height: max-content
+  width: 100%
+  padding-top: 100px
+  background-image: url(../img/s_slider_bg.jpg)
+
+.slider-item
+  img
+    border-radius: 10px
+    max-width: 100%
+
+    /* max-width: 450px;
+
+  .banner-content
+    .sub-title
+      color: #e4d804
+      font-size: 26px
+      font-weight: 700
+      margin: 10px 0
+
+    .title
+      font-size: 60px
+      font-weight: 700
+      line-height: 1.2
+      margin: 8px 0
+
+    a
+      margin-top: 30px
+      background: #12151e none repeat scroll 0 0
+      border: 2px solid #e4d804
+      border-radius: 50px
+      color: #e3dfdf
+      font-size: 12px
+      font-weight: 700
+      letter-spacing: 1px
+      line-height: 1.5
+      padding: 16px 34px
+      text-align: center
+      text-transform: uppercase
+      transition: all 0.3s ease 0s
+      max-width: 200px
+
+      i
+        transition: all 0.3s ease 0s
+        color: #e3dfdf
+
+      &:hover
+        background-color: #e4d804
+        color: #12151e
+
+        i
+          color: #12151e
+
+section.slider_all
+  padding: 120px 0 70px
+
+.slider_all .sub-title, .movie-area .sub-title
+  color: #e4d804
+  line-height: 1
+  font-size: 12px
+  text-transform: uppercase
+  font-weight: 500
+  margin-bottom: 12px
+  letter-spacing: 1px
+
+.slider_all .title, .movie-area .title
+  font-size: 36px
+
+.slider_all .slider-nav
+  margin-right: 70px
+
+  a
+    border-radius: 50px
+    background: #20212b
+    font-size: 12px
+    font-weight: 600
+    color: #e3dfdf
+    border: 2px solid #2d303d
+    padding: 11px 27px
+    margin-bottom: 0
+    transition: none !important
+
+.movie-area .slider-nav a, .games-area .slider-nav a
+  border-radius: 50px
+  background: #20212b
+  font-size: 12px
+  font-weight: 600
+  color: #e3dfdf
+  border: 2px solid #2d303d
+  padding: 11px 27px
+  margin-bottom: 0
+  transition: none !important
+
+.slider_all .slider-nav a.nice, .movie-area .slider-nav a.nice, .games-area .slider-nav a.nice, .slider_all .slider-nav a:hover, .movie-area .slider-nav a:hover, .games-area .slider-nav a:hover
+  border-color: #e4d804 !important
+
+.slider_all
+  .owl-nav
+    position: absolute
+    top: -44px
+    right: 0
+    background: #20212b
+    border: 2px solid #2d303d
+    color: #e3dfdf
+    padding: 9.5px 19px
+    border-radius: 50px
+
+    button.owl-prev
+      padding-right: 17px
+      margin-right: 13px
+      position: relative
+
+  .owl-stage
+    margin-top: 50px
+
+  .owl-item
+    .poster img
+      max-width: 100%
+      border-radius: 8px
+
+    .content .title a
+      color: #ffffff
+      text-decoration: none
+      font-size: 16px
+      font-weight: 600
+      transition: 0.1s ease-in-out
+
+@media only screen and (max-width: 600px)
+
+.movie-area .movie-content .title a
+  color: #ffffff
+  text-decoration: none
+  font-size: 16px
+  font-weight: 600
+  transition: 0.1s ease-in-out
+
+.slider_all .owl-item .content
+  .title a:hover, .date
+    color: #e4d804
+
+.movie-area .movie-content
+  .title a:hover, .date
+    color: #e4d804
+
+.slider_all .owl-item .content .date, .movie-area .movie-content .date
+  font-size: 14px
+  font-weight: 500
+
+.slider_all .owl-item .content li, .movie-area .movie-content li
+  list-style: none
+
+.slider_all .owl-item .content li
+  .quality, i
+    color: #e4d804
+
+.movie-area .movie-content li
+  i, .quality
+    color: #e4d804
+
+.slider_all .owl-item .content li .quality, .movie-area .movie-content li .quality
+  border: 2px solid #ffffff
+  padding: 5px 10px
+  font-weight: 700
+  font-size: 11px
+  text-transform: uppercase
+
+.slider_all .owl-item .content li.d_and_r, .movie-area .movie-content li.d_and_r
+  color: #bcbcbc
+  font-size: 12px
+  font-weight: 500
+
+section.breadcrumb-area
+  padding: 200px 0 240px
+  background-position: center
+  background-size: cover
+  background-image: url(../img/breadcrumb_bg.jpg)
+
+.breadcrumb-area
+  .title
+    font-size: 60px
+    line-height: 1.3
+
+    span
+      color: #e4d804
+
+  li
+    list-style: none
+    font-size: 14px
+    text-transform: uppercase
+    font-weight: 600
+    color: #fff
+
+    a
+      color: #e4d804
+      text-decoration: none
+
+    svg
+      color: #ffffff
+      transform: rotate(-32deg)
+      width: 17px
+
+.movie-area .movie-poster
+  position: relative
+
+  ul
+    position: absolute
+    width: 100%
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+
+.transtion
+  transition: .3s linear
+
+.movie-area .movie-poster
+  li
+    list-style: none
+
+  .rating
+    font-size: 16px
+    font-weight: 600s
+    color: #e4d804
+
+    i
+      font-size: 12px
+      color: #e4d804
+
+  li a
+    margin-top: 7px
+    border-radius: 50px
+    min-width: 140px
+    padding: 10px 34px
+    font-size: 12px
+    text-transform: capitalize
+    font-weight: 600
+    letter-spacing: 0
+
+    &.btn-1
+      background: #e4d804
+      color: #151517
+
+    &.btn-2
+      background-color: #151517
+      color: #ffffff
+      border: #e4d804 2px solid
+      transition: 0.3s ease
+
+      &:hover
+        background: #e4d804
+        color: #151517
+
+  .non
+    content: ""
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    background: #04050a
+
+.non-00
+  opacity: 0
+  transition: .2s linear
+
+.non-11
+  opacity: 0.7
+  transition: .2s linear
+
+.pagination-wrap li
+  list-style: none
+  color: #ffffff
+  display: block
+  font-size: 14px
+  color: #c2c2c2
+  font-weight: 600
+  padding: 10px 20px
+  border: 2px solid #c2c2c2
+  transition: 0.3s ease
+
+  a
+    text-decoration: none
+    color: #ffffff
+    transition: 0.3s ease
+
+  &.active, &:hover
+    background-color: #e4d804
+    border-color: #e4d804
+
+  &.active a, &:hover a
+    color: #151517
+
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap")
+
+*
+  box-sizing: border-box
+
+.movie-slider
+  display: flex
+  align-items: center
+  justify-content: center
+  padding: 30px 10px
+  font-family: "DM Sans", sans-serif
+  transition: background 0.4s ease-in
+
+  /* background-color: #c394f8;
+  height: 700px
+  margin-bottom: 50px
+
+  input[type="radio"]
+    display: none
+
+  .card
+    position: absolute
+    background-color: #ffffff00 !important
+    width: 60%
+    height: 100%
+    left: 0
+    right: 0
+    margin: auto
+    transition: transform 0.4s ease
+    cursor: pointer
+
+  .container
+    width: 100%
+    max-width: 800px
+    max-height: 600px
+    height: 100%
+    transform-style: preserve-3d
+    display: flex
+    justify-content: center
+    flex-direction: column
+    align-items: center
+
+  .cards
+    position: relative
+    width: 100%
+    height: 100%
+    margin-bottom: 20px
+
+  img
+    width: 100%
+    height: 100%
+    border-radius: 10px
+    object-fit: cover
+
+  #item-1:checked ~ .cards #song-3, #item-2:checked ~ .cards #song-1, #item-3:checked ~ .cards #song-2
+    transform: translatex(-40%) scale(0.8)
+    opacity: 0.4
+    z-index: 0
+
+  #item-1:checked ~ .cards #song-2, #item-2:checked ~ .cards #song-3, #item-3:checked ~ .cards #song-1
+    transform: translatex(40%) scale(0.8)
+    opacity: 0.4
+    z-index: 0
+
+  #item-1:checked ~ .cards #song-1, #item-2:checked ~ .cards #song-2, #item-3:checked ~ .cards #song-3
+    transform: translatex(0) scale(1)
+    opacity: 1
+    z-index: 1
+
+  #item-1:checked ~ .cards #song-1 img, #item-2:checked ~ .cards #song-2 img, #item-3:checked ~ .cards #song-3 img
+    box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47)
+
+  .player
+    background-color: #fff
+    border-radius: 8px
+    min-width: 320px
+    padding: 16px 10px
+
+  .upper-part
+    position: relative
+    display: flex
+    align-items: center
+    margin-bottom: 12px
+    height: 36px
+    overflow: hidden
+
+  .play-icon
+    margin-right: 10px
+
+  .song-info
+    width: calc(100% - 32px)
+    display: block
+
+    .title
+      color: #403d40
+      font-size: 14px
+      line-height: 24px
+
+  .sub-line
+    display: flex
+    justify-content: space-between
+    width: 100%
+
+  .subtitle
+    font-size: 12px
+    line-height: 16px
+    color: #c6c5c6
+
+  .time
+    font-size: 12px
+    line-height: 16px
+    color: #c6c5c6
+    font-size: 12px
+    line-height: 16px
+    color: #a5a5a5
+    font-weight: 500
+    margin-left: auto
+
+  .progress-bar
+    height: 3px
+    width: 100%
+    background-color: #e9efff
+    border-radius: 2px
+    overflow: hidden
+
+  .progress
+    display: block
+    position: relative
+    width: 60%
+    height: 100%
+    background-color: #2992dc
+    border-radius: 6px
+
+  .info-area
+    width: 100%
+    position: absolute
+    top: 0
+    left: 30px
+    transition: transform 0.4s ease-in
+
+  #item-2:checked ~ .player #test
+    transform: translateY(0)
+    transform: translateY(-40px)
+
+  #item-3:checked ~ .player #test
+    transform: translateY(-80px)
+
+.game-slider
+  width: 100%
+
+  .content
+    width: 70%
+    margin: auto
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    height: 735px
+
+  .img
+    display: flex
+    justify-content: center
+    overflow: hidden
+    flex-basis: 400px
+    margin: 5px
+    transition: 0.5s ease
+
+  img
+    display: block
+    width: 150%
+
+  .img:hover
+    max-height: 100%
+    flex-basis: 500px
+
+/* .game-slider .img-1:hover~.img-2,
+ *.game-slider .img-1:hover~.img-3,
+ *.game-slider .img-2:hover~.img-1,
+ *.game-slider .img-2:hover~.img-3,
+ *.game-slider .img-3:hover~.img-2,
+ *.game-slider .img-3:hover~.img-1 {
+ *    filter: brightness(0.3);
+ *}
+
+/*ddddddd
+ *dddddddd
+ *dddddddd
+ *dddddddd
+ *ddddddddd
+ *ddddddd
+ *dddddddd
+ *ddddd
+
+ul
+  padding: 0
+
+li
+  list-style: none
+
+a
+  text-decoration: none
+  color: inherit
+
+button
+  outline: none
+  border: none
+
+.container
+  margin: 0 auto
+
+/* Medium devices (landscape tablets, 768px and up)
+
+@media (min-width: 768px)
+  .container
+    width: 750px
+
+/* Large devices (laptops/desktops, 992px and up)
+
+@media (min-width: 992px)
+  .container
+    width: 970px
+
+/* Extra large devices (large laptops and desktops, 1200px and up)
+
+@media (min-width: 1200px)
+  .container
+    width: 1170px
+
+.games-poster button, .movies-poster .container .text button, .music-poster .btn button
+  background-color: #e4d804
+  color: #1e1b29
+  font-size: 18px
+  text-transform: capitalize
+  width: 180px
+  height: 50px
+  margin-top: 20px
+  border-radius: 25px 50%
+  -webkit-border-radius: 25px 50%
+  -moz-border-radius: 25px 50%
+  -ms-border-radius: 25px 50%
+  -o-border-radius: 25px 50%
+  transition: 0.3s
+  -webkit-transition: 0.3s
+  -moz-transition: 0.3s
+  -ms-transition: 0.3s
+  -o-transition: 0.3s
+
+.games-poster button:hover, .movies-poster .container .text button:hover, .music-poster .btn button:hover
+  font-weight: bold
+  background-color: white
+  border: 3px solid #e4d804
+  scale: 1.1
+
+.games-poster button:hover i, .movies-poster .container .text button:hover i, .music-poster .btn button:hover i
+  color: #e4d804
+
+.music
+  background-image: url(../img/marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg)
+  background-size: cover
+  background-position: center
+
+.music-poster
+  color: #c3c3c3
+  padding: 50px 15px
+
+  .top
+    text-align: center
+    margin-bottom: 100px
+
+    h2
+      font-size: 36px
+
+  .feutures
+    display: -ms-grid
+    display: grid
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr))
+    gap: 30px
+
+    > div
+      background-color: #00000066
+      padding: 30px
+      border-radius: 20px
+      position: relative
+      -webkit-transition: 0.3s
+      transition: 0.3s
+
+      &::before
+        content: ""
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        -webkit-transform: translate(-50%, -50%)
+        -moz-transform: translate(-50%, -50%)
+        -ms-transform: translate(-50%, -50%)
+        -o-transform: translate(-50%, -50%)
+        width: 70%
+        height: calc(100% + 60px)
+        opacity: 0
+        border: 2px solid #c3c3c3
+        border-radius: 20px
+        -webkit-transition: 0.4s
+        transition: 0.4s
+
+      &:hover
+        scale: 0.8
+
+        &::before
+          opacity: 1
+          width: 110%
+          border-color: #e4d804
+          border-width: 4px
+
+      h3
+        font-size: 20px
+        font-weight: 500
+        text-align: center
+        text-transform: uppercase
+        margin: 10px 0
+
+      p
+        font-size: 14px
+        line-height: 1.8
+        margin: 0
+
+  .btn
+    text-align: center
+    margin-top: 50px
+
+@media (max-width: 1200px)
+  .music-poster .feutures
+    gap: 70px
+
+.movies-poster .container
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-pack: center
+  -ms-flex-pack: center
+  justify-content: center
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  gap: 30px
+  color: #1e1b29
+  padding: 50px 15px
+
+  .text
+    -ms-flex-preferred-size: 50%
+    flex-basis: 50%
+
+    h2
+      font-size: 36px
+      text-transform: capitalize
+      margin-top: 0
+
+    ul > li
+      margin-bottom: 7px
+
+    > h3
+      color: #d81c2b
+      text-transform: uppercase
+      -webkit-text-fill-color: white
+      -webkit-text-stroke-width: 2px
+      font-size: 50px
+      margin: 0
+
+  img
+    max-width: 100%
+
+@media (max-width: 992px)
+  .movies-poster .container
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -ms-flex-direction: column
+    flex-direction: column
+
+.games
+  background-image: url("../img/gaming.jpg")
+  background-size: cover
+  background-position: center
+  padding: 120px 10px
+
+.games-poster
+  margin-top: 120px
+  color: #c3c3c3
+  text-align: center
+
+  h2
+    font-size: 36px
+    text-transform: capitalize
+
+.games button, .movies-poster .container .text button, .music-poster .btn button
+  background-color: #e4d804
+  color: #1e1b29
+  font-size: 18px
+  text-transform: capitalize
+  width: 180px
+  height: 50px
+  margin-top: 20px
+  border-radius: 25px 50%
+  -webkit-border-radius: 25px 50%
+  -moz-border-radius: 25px 50%
+  -ms-border-radius: 25px 50%
+  -o-border-radius: 25px 50%
+  transition: 0.3s
+  -webkit-transition: 0.3s
+  -moz-transition: 0.3s
+  -ms-transition: 0.3s
+  -o-transition: 0.3s
+
+.movies-poster
+  background-color: #252631 !important
+
+.games button:hover, .movies-poster .container .text button:hover, .music-poster .btn button:hover
+  font-weight: bold
+  border: 3px solid #e4d804
+  scale: 1.1
+
+.games button:hover i, .movies-poster .container .text button:hover i, .music-poster .btn button:hover i
+  color: #e4d804
+
+footer
+  background-image: url("../img/footer_bg.jpg")
+  background-size: cover
+  background-position: center
+  color: #c3c3c3
+  padding: 50px 15px
+
+  ul
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    padding: 0
+
+  a
+    text-transform: uppercase
+    font-weight: bold
+    -webkit-transition: 0.3s
+    transition: 0.3s
+    margin-left: 20px
+
+    &:hover
+      color: #e4d804
+
+  .logo
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: center
+    -ms-flex-pack: center
+    justify-content: center
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+    gap: 0px
+    font-size: 26px
+    text-transform: uppercase
+    font-weight: bold
+
+  .part-1
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: justify
+    -ms-flex-pack: justify
+    justify-content: space-between
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+    gap: 0px
+    border-bottom: 2px solid #12151e
+    padding: 30px
+
+    form
+      position: relative
+
+      input[type=search]
+        width: 300px
+        height: 40px
+        border-radius: 20px 50%
+        outline: none
+        border: none
+        padding: 16px
+        background-color: #12151e
+        caret-color: #e4d804
+        -webkit-border-radius: 20px 50%
+        -moz-border-radius: 20px 50%
+        -ms-border-radius: 20px 50%
+        -o-border-radius: 20px 50%
+
+        &::-webkit-input-placeholder, &::-moz-placeholder, &:-ms-input-placeholder, &::-ms-input-placeholder, &::placeholder
+          color: #343a40
+
+      button
+        border-left: 2px solid
+        color: #e4d804
+        background-color: transparent
+        position: absolute
+        right: 10px
+        top: 50%
+        -webkit-transform: translateY(-50%)
+        transform: translateY(-50%)
+        cursor: pointer
+
+  .part-2
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: justify
+    -ms-flex-pack: justify
+    justify-content: space-between
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+    gap: 0px
+    border-top: 1px solid #343a40
+    padding: 30px
+
+    .socials li a
+      display: -webkit-box
+      display: -ms-flexbox
+      display: flex
+      -webkit-box-pack: center
+      -ms-flex-pack: center
+      justify-content: center
+      -webkit-box-align: center
+      -ms-flex-align: center
+      align-items: center
+      gap: 0px
+      width: 40px
+      height: 40px
+      border-radius: 50%
+      background-color: #12151e
+
+  + p
+    text-align: center
+    text-transform: capitalize
+    background-color: #343a40
+    color: #c3c3c3
+    margin: 0
+    padding: 30px 10px
+
+    a
+      color: #e4d804
+
+@media (max-width: 992px)
+  footer .part-1 form input[type=search]
+    width: 60vw
+
+@media (max-width: 992px)
+  footer .part-1
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -ms-flex-direction: column
+    flex-direction: column
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+
+@media (max-width: 992px)
+  footer .part-2
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -ms-flex-direction: column
+    flex-direction: column
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+
+#musicrating
+  text-align: center
+  font-size: 16px
+  font-weight: 700
+  color: #ffffff
+
+#musicboard
+  background-image: url(../img/marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg)
+
+.circles
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  overflow: hidden
+
+  li
+    position: absolute
+    display: block
+    list-style: none
+    color: #e4d90467
+    font-size: 50px
+    -webkit-animation: animate 60s linear infinite
+    animation: animate 60s linear infinite
+    bottom: -150px
+
+    &:nth-child(1)
+      left: 2%
+      width: 80px
+      height: 80px
+      -webkit-animation-delay: 0s
+      animation-delay: 0s
+
+    &:nth-child(2)
+      left: 20%
+      width: 55px
+      height: 55px
+      -webkit-animation-delay: 2s
+      animation-delay: 2s
+      -webkit-animation-duration: 20s
+      animation-duration: 40s
+
+    &:nth-child(3)
+      left: 70%
+      width: 20px
+      height: 20px
+      -webkit-animation-delay: 3s
+      animation-delay: 3s
+
+    &:nth-child(4)
+      left: 40%
+      width: 60px
+      height: 60px
+      -webkit-animation-delay: 0s
+      animation-delay: 0s
+      -webkit-animation-duration: 12s
+      animation-duration: 52s
+
+    &:nth-child(5)
+      left: 65%
+      width: 20px
+      height: 20px
+      -webkit-animation-delay: 0s
+      animation-delay: 0s
+
+    &:nth-child(6)
+      left: 75%
+      width: 110px
+      height: 110px
+      -webkit-animation-delay: 6s
+      animation-delay: 6s
+
+    &:nth-child(7)
+      left: 35%
+      width: 150px
+      height: 150px
+      -webkit-animation-delay: 8s
+      animation-delay: 8s
+
+    &:nth-child(8)
+      left: 50%
+      -webkit-animation-delay: 12s
+      animation-delay: 12s
+      -webkit-animation-duration: 60s
+      animation-duration: 60s
+
+    &:nth-child(9)
+      left: 20%
+      width: 15px
+      height: 15px
+      -webkit-animation-delay: 2s
+      animation-delay: 2s
+      -webkit-animation-duration: 20s
+      animation-duration: 50s
+
+    &:nth-child(10)
+      left: 85%
+      width: 150px
+      height: 150px
+      -webkit-animation-delay: 1s
+      animation-delay: 1s
+      -webkit-animation-duration: 11s
+      animation-duration: 41s
+
+    &:nth-child(11)
+      left: 2%
+      width: 80px
+      height: 80px
+      -webkit-animation-delay: 10s
+      animation-delay: 10s
+
+    &:nth-child(12)
+      left: 20%
+      width: 15px
+      height: 15px
+      -webkit-animation-delay: 2s
+      animation-delay: 2s
+      -webkit-animation-duration: 30s
+      animation-duration: 50s
+
+    &:nth-child(13)
+      left: 70%
+      width: 20px
+      height: 20px
+      -webkit-animation-delay: 13s
+      animation-delay: 13s
+
+    &:nth-child(14)
+      left: 40%
+      width: 60px
+      height: 60px
+      -webkit-animation-delay: 10s
+      animation-delay: 10s
+      -webkit-animation-duration: 55s
+      animation-duration: 55s
+
+    &:nth-child(15)
+      left: 65%
+      width: 20px
+      height: 20px
+      -webkit-animation-delay: 30s
+      animation-delay: 30s
+
+    &:nth-child(16)
+      left: 75%
+      width: 110px
+      height: 110px
+      -webkit-animation-delay: 36s
+      animation-delay: 36s
+
+    &:nth-child(17)
+      left: 35%
+      width: 150px
+      height: 150px
+      -webkit-animation-delay: 28s
+      animation-delay: 38s
+
+    &:nth-child(18)
+      left: 50%
+      -webkit-animation-delay: 22s
+      animation-delay: 22s
+      -webkit-animation-duration: 35s
+      animation-duration: 55s
+
+    &:nth-child(19)
+      left: 20%
+      width: 15px
+      height: 15px
+      -webkit-animation-delay: 22s
+      animation-delay: 22s
+      -webkit-animation-duration: 30s
+      animation-duration: 50s
+
+    &:nth-child(20)
+      left: 85%
+      width: 150px
+      height: 150px
+      -webkit-animation-delay: 11s
+      animation-delay: 11s
+      -webkit-animation-duration: 21s
+      animation-duration: 41s
+
+    &:nth-child(21)
+      left: 3%
+      width: 80px
+      height: 80px
+      -webkit-animation-delay: 30s
+      animation-delay: 30s
+
+    &:nth-child(22)
+      left: 20%
+      width: 15px
+      height: 15px
+      -webkit-animation-delay: 35s
+      animation-delay: 35s
+      -webkit-animation-duration: 30s
+      animation-duration: 50s
+
+    &:nth-child(23)
+      left: 70%
+      width: 20px
+      height: 20px
+      -webkit-animation-delay: 33s
+      animation-delay: 33s
+
+    &:nth-child(24)
+      left: 40%
+      width: 60px
+      height: 60px
+      -webkit-animation-delay: 40s
+      animation-delay: 40s
+      -webkit-animation-duration: 55s
+      animation-duration: 55s
+
+    &:nth-child(25)
+      left: 65%
+      width: 20px
+      height: 20px
+      -webkit-animation-delay: 30s
+      animation-delay: 30s
+
+    &:nth-child(26)
+      left: 75%
+      width: 110px
+      height: 110px
+      -webkit-animation-delay: 45s
+      animation-delay: 45s
+
+    &:nth-child(27)
+      left: 35%
+      width: 150px
+      height: 150px
+      -webkit-animation-delay: 43s
+      animation-delay: 43s
+
+    &:nth-child(28)
+      left: 50%
+      -webkit-animation-delay: 19s
+      animation-delay: 19s
+      -webkit-animation-duration: 35s
+      animation-duration: 55s
+
+    &:nth-child(29)
+      left: 20%
+      width: 15px
+      height: 15px
+      -webkit-animation-delay: 25s
+      animation-delay: 25s
+      -webkit-animation-duration: 30s
+      animation-duration: 50s
+
+    &:nth-child(30)
+      left: 85%
+      width: 150px
+      height: 150px
+      -webkit-animation-delay: 20s
+      animation-delay: 20s
+      -webkit-animation-duration: 21s
+      animation-duration: 41s
+
+    &:nth-child(31)
+      left: 1%
+      width: 80px
+      height: 80px
+      -webkit-animation-delay: 17s
+      animation-delay: 17s
+
+    &:nth-child(32)
+      left: 20%
+      width: 15px
+      height: 15px
+      -webkit-animation-delay: 19s
+      animation-delay: 19s
+      -webkit-animation-duration: 20s
+      animation-duration: 40s
+
+    &:nth-child(33)
+      left: 70%
+      width: 20px
+      height: 20px
+      -webkit-animation-delay: 33s
+      animation-delay: 33s
+
+    &:nth-child(34)
+      left: 40%
+      width: 60px
+      height: 60px
+      -webkit-animation-delay: 50s
+      animation-delay: 50s
+      -webkit-animation-duration: 12s
+      animation-duration: 52s
+
+    &:nth-child(35)
+      left: 65%
+      width: 20px
+      height: 20px
+      -webkit-animation-delay: 55s
+      animation-delay: 55s
+
+    &:nth-child(36)
+      left: 75%
+      width: 110px
+      height: 110px
+      -webkit-animation-delay: 56s
+      animation-delay: 56s
+
+    &:nth-child(37)
+      left: 35%
+      width: 150px
+      height: 150px
+      -webkit-animation-delay: 48s
+      animation-delay: 48s
+
+    &:nth-child(38)
+      left: 50%
+      -webkit-animation-delay: 32s
+      animation-delay: 32s
+      -webkit-animation-duration: 60s
+      animation-duration: 60s
+
+    &:nth-child(39)
+      left: 20%
+      width: 15px
+      height: 15px
+      -webkit-animation-delay: 42s
+      animation-delay: 42s
+      -webkit-animation-duration: 20s
+      animation-duration: 50s
+
+    &:nth-child(40)
+      left: 85%
+      width: 150px
+      height: 150px
+      -webkit-animation-delay: 51s
+      animation-delay: 51s
+      -webkit-animation-duration: 11s
+      animation-duration: 41s
+
+@-webkit-keyframes animate
+  0%
+    -webkit-transform: translateY(0) rotate(0deg)
+    transform: translateY(0) rotate(0deg)
+    opacity: 1
+    border-radius: 0
+
+  100%
+    -webkit-transform: translateY(-8000px) rotate(2160deg)
+    transform: translateY(-8000px) rotate(2160deg)
+    opacity: 0
+    border-radius: 50%
+
+@keyframes animate
+  0%
+    -webkit-transform: translateY(0) rotate(0deg)
+    transform: translateY(0) rotate(0deg)
+    opacity: 1
+    border-radius: 0
+
+  100%
+    -webkit-transform: translateY(-8000px) rotate(2160deg)
+    transform: translateY(-8000px) rotate(2160deg)
+    opacity: 0
+    border-radius: 50%
+
+#game-board
+  background-image: url(../img/minh-pham-AHCmAX0k_J4-unsplash.jpg)
